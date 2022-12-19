@@ -162,7 +162,8 @@ void counting_sort(int *array, long long size, int num_proc, int rank, const int
 
 int main(int argc, char **argv) {
 
-    const long long size = SIZE;
+    //const long long size = SIZE;
+    const int size = SIZE;
     int *array = (int *)malloc(size * sizeof(int));
 
     MPI_Init(&argc, &argv);
